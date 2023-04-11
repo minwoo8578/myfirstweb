@@ -1,2 +1,45 @@
-.profile{width:300px;
+#grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
 }
+     
+        
+        ol {
+            border-right: 1px solid gray;
+            width: 100px;
+            margin: 0px;
+            padding: 20px
+        }
+
+        h1 {
+            border-bottom: 1px solid gray;
+            padding: 10px;
+            margin: 0px;            
+        }
+
+        /*body{
+            background-color: rgb(26, 25, 25);
+            color: rgb(210, 210, 210);
+        }*/
+
+        .class-test{
+            border-bottom: 3px solid red;
+        }
+        #test{
+            border-bottom: 3px solid gray;
+        }
+
+    @media(max-width:600px) {
+        #grid {
+                display: block;
+            }
+
+        ol {
+                border-right: none;
+            }
+      
+        h1 {
+                border-bottom: none;
+            }
+    }
+
